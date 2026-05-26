@@ -1,4 +1,5 @@
 <!-- 2026-05-26_info_WebsiteServices.md Copyright (c) 2026:a@cov.in. All Rights Reserved. Do Not Distribute. -->
+<!-- BOOKING_URL: https://secure.helloalma.com/providers/katherine-didonato/ — replace this URL everywhere in this file when the real booking link is ready -->
 
 # Services Page
 
@@ -50,7 +51,7 @@ Katherine offers two ways to begin:
 * **Free 15-minute consultation:** A brief, no-commitment conversation to see if Katherine is the right fit for you.
 * **45-minute intake appointment:** A full first session to begin care right away. Have your insurance information handy, if applicable.
 
-[Book a session]([BOOKING_URL])
+[Book a session](https://secure.helloalma.com/providers/katherine-didonato/)
 
 [Get a cost estimate for your sessions](https://secure.helloalma.com/check-my-insurance-coverage/?provider=katherine-didonato&providerFirstName=Katherine&providerOffersSlidingScale=true)
 

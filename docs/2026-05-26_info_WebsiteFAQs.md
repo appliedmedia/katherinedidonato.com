@@ -1,4 +1,5 @@
 <!-- 2026-05-26_info_WebsiteFAQs.md Copyright (c) 2026:a@cov.in. All Rights Reserved. Do Not Distribute. -->
+<!-- BOOKING_URL: https://secure.helloalma.com/providers/katherine-didonato/ — replace this URL everywhere in this file when the real booking link is ready -->
 
 # FAQs Page
 
@@ -6,13 +7,13 @@
 
 Yes. Katherine offers a free 15-minute phone consultation for anyone who wants a brief, no-commitment conversation before booking a first session. This is a good opportunity to ask questions and get a sense of whether Katherine is the right fit.
 
-[Book a free consultation]([BOOKING_URL])
+[Book a free consultation](https://secure.helloalma.com/providers/katherine-didonato/)
 
 ## What does a first session look like?
 
 The intake appointment is 45 minutes. It is a full first session: Katherine will ask about what brings you in, your history, and your goals for therapy. If you are using insurance, have your information handy before the session.
 
-[Book an intake appointment]([BOOKING_URL])
+[Book an intake appointment](https://secure.helloalma.com/providers/katherine-didonato/)
 
 ## How much do sessions cost?
 
@@ -64,6 +65,6 @@ Please reach out directly to discuss cancellation and rescheduling policies befo
 
 **Phone:** (908) 503-3633
 
-[Book a session]([BOOKING_URL])
+[Book a session](https://secure.helloalma.com/providers/katherine-didonato/)
 
 \#\#\#
