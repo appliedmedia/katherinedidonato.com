@@ -23,14 +23,14 @@
 * Individual telehealth therapy
 * Specializing in anxiety, OCD, depression, and perinatal mental health
 * Licensed in New Jersey and New York
-* Accepts Aetna and Cigna insurance plans. [Get a cost estimate](https://secure.helloalma.com/check-my-insurance-coverage/?provider=katherine-didonato&providerFirstName=Katherine&providerOffersSlidingScale=true)
+* Accepts Aetna and Cigna insurance plans. [Get a cost estimate](<https://secure.helloalma.com/check-my-insurance-coverage/?provider=katherine-didonato&providerFirstName=Katherine&providerOffersSlidingScale=true>)
 
 ## Call to Action
 
 * [About]
 * [Services]
 * [FAQs]
-* [Book a free consultation](https://secure.helloalma.com/providers/katherine-didonato/)
+* [Book a free consultation](<https://secure.helloalma.com/providers/katherine-didonato/>)
 
 ## Booking Options
 
@@ -39,6 +39,6 @@ Two ways to get started:
 * **Free 15-minute consultation:** A brief, no-commitment conversation to see if Katherine is the right fit for you. 15 minutes. Free.
 * **45-minute intake appointment:** A full first session to begin care right away. Have your insurance information handy, if applicable. 45 minutes. Paid.
 
-[Book a session](https://secure.helloalma.com/providers/katherine-didonato/)
+[Book a session](<https://secure.helloalma.com/providers/katherine-didonato/>)
 
 \#\#\#

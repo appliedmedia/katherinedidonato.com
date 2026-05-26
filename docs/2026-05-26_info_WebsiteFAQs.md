@@ -7,13 +7,13 @@
 
 Yes. Katherine offers a free 15-minute phone consultation for anyone who wants a brief, no-commitment conversation before booking a first session. This is a good opportunity to ask questions and get a sense of whether Katherine is the right fit.
 
-[Book a free consultation](https://secure.helloalma.com/providers/katherine-didonato/)
+[Book a free consultation](<https://secure.helloalma.com/providers/katherine-didonato/>)
 
 ## What does a first session look like?
 
 The intake appointment is 45 minutes. It is a full first session: Katherine will ask about what brings you in, your history, and your goals for therapy. If you are using insurance, have your information handy before the session.
 
-[Book an intake appointment](https://secure.helloalma.com/providers/katherine-didonato/)
+[Book an intake appointment](<https://secure.helloalma.com/providers/katherine-didonato/>)
 
 ## How much do sessions cost?
 
@@ -39,7 +39,7 @@ Yes. Katherine is in-network with the following plans:
 * Trustmark Health Benefits (Cigna network)
 * Trustmark Small Business Benefits (Aetna network)
 
-Not sure if your plan is covered? [Get a cost estimate for your sessions](https://secure.helloalma.com/check-my-insurance-coverage/?provider=katherine-didonato&providerFirstName=Katherine&providerOffersSlidingScale=true).
+Not sure if your plan is covered? [Get a cost estimate for your sessions](<https://secure.helloalma.com/check-my-insurance-coverage/?provider=katherine-didonato&providerFirstName=Katherine&providerOffersSlidingScale=true>).
 
 ## Do you offer a sliding scale?
 
@@ -65,6 +65,6 @@ Please reach out directly to discuss cancellation and rescheduling policies befo
 
 **Phone:** (908) 503-3633
 
-[Book a session](https://secure.helloalma.com/providers/katherine-didonato/)
+[Book a session](<https://secure.helloalma.com/providers/katherine-didonato/>)
 
 \#\#\#

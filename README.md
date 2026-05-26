@@ -1,6 +1,6 @@
 # katherinedidonato.com
 
-Website content for [Katherine DiDonato, PhD](https://secure.helloalma.com/providers/katherine-didonato/), licensed psychologist offering virtual therapy in New Jersey and New York.
+Website content for [Katherine DiDonato, PhD](<https://secure.helloalma.com/providers/katherine-didonato/>), licensed psychologist offering virtual therapy in New Jersey and New York.
 
 ## Site Pages
 
@@ -11,9 +11,9 @@ Website content for [Katherine DiDonato, PhD](https://secure.helloalma.com/provi
 
 ## Key Links
 
-* [Alma profile](https://secure.helloalma.com/providers/katherine-didonato/)
-* [Insurance cost estimate](https://secure.helloalma.com/check-my-insurance-coverage/?provider=katherine-didonato&providerFirstName=Katherine&providerOffersSlidingScale=true)
-* [Psychology Today profile](https://www.psychologytoday.com/us/therapists/katherine-didonato-berkeley-heights-nj/1594073)
+* [Alma profile](<https://secure.helloalma.com/providers/katherine-didonato/>)
+* [Insurance cost estimate](<https://secure.helloalma.com/check-my-insurance-coverage/?provider=katherine-didonato&providerFirstName=Katherine&providerOffersSlidingScale=true>)
+* [Psychology Today profile](<https://www.psychologytoday.com/us/therapists/katherine-didonato-berkeley-heights-nj/1594073>)
 
 ## Updating the Booking URL
 

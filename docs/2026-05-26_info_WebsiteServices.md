@@ -51,8 +51,8 @@ Katherine offers two ways to begin:
 * **Free 15-minute consultation:** A brief, no-commitment conversation to see if Katherine is the right fit for you.
 * **45-minute intake appointment:** A full first session to begin care right away. Have your insurance information handy, if applicable.
 
-[Book a session](https://secure.helloalma.com/providers/katherine-didonato/)
+[Book a session](<https://secure.helloalma.com/providers/katherine-didonato/>)
 
-[Get a cost estimate for your sessions](https://secure.helloalma.com/check-my-insurance-coverage/?provider=katherine-didonato&providerFirstName=Katherine&providerOffersSlidingScale=true)
+[Get a cost estimate for your sessions](<https://secure.helloalma.com/check-my-insurance-coverage/?provider=katherine-didonato&providerFirstName=Katherine&providerOffersSlidingScale=true>)
 
 \#\#\#
