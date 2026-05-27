@@ -1,4 +1,4 @@
-<!-- 2026-05-26_info_WebsiteAbout.md Copyright (c) 2026:a@cov.in. All Rights Reserved. Do Not Distribute. -->
+<!-- 2026-05-26_plan_done_WebsiteAbout.md Copyright (c) 2026:a@cov.in. All Rights Reserved. Do Not Distribute. -->
 <!-- BOOKING_URL: https://secure.helloalma.com/providers/katherine-didonato/ — replace this URL everywhere in this file when the real booking link is ready -->
 
 # About Page
@@ -33,6 +33,7 @@ Unhelpful thoughts are not facts. When you learn to recognize and challenge them
 **Certifications:**
 
 * Certificate, Academy of Cognitive and Behavioral Therapies (2014)
+* Advanced training, Postpartum Support International
 
 **In practice since:** 1998
 

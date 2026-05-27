@@ -4,20 +4,22 @@ Website content for [Katherine DiDonato, PhD](<https://secure.helloalma.com/prov
 
 ## Site Pages
 
-* **Home** (`docs/2026-05-26_info_WebsiteHome.md`): Hero, intro, booking CTAs, insurance estimate link.
-* **About** (`docs/2026-05-26_info_WebsiteAbout.md`): Bio, therapeutic philosophy, credentials, education, licenses.
-* **Services** (`docs/2026-05-26_info_WebsiteServices.md`): Specialty areas (anxiety, OCD, depression, infertility, perinatal), treatment modalities, session format.
-* **FAQs** (`docs/2026-05-26_info_WebsiteFAQs.md`): Insurance plans accepted, fees, sliding scale, free consultation, cancellation policy, contact.
+* **Home** (`docs/plans/2026-05-26_plan_done_WebsiteHome.md`): Hero, intro, booking CTAs, insurance estimate link.
+* **About** (`docs/plans/2026-05-26_plan_done_WebsiteAbout.md`): Bio, therapeutic philosophy, credentials, education, licenses.
+* **Services** (`docs/plans/2026-05-26_plan_done_WebsiteServices.md`): Specialty areas (anxiety, OCD, depression, infertility, perinatal, ADHD, grief, sleep, anger), treatment modalities, session format.
+* **FAQs** (`docs/plans/2026-05-26_plan_done_WebsiteFAQs.md`): Insurance plans accepted, fees, payment methods, sliding scale, free consultation, cancellation policy, contact.
+* **Sources** (`docs/plans/2026-05-26_plan_done_Sources.md`): Raw text captured from Alma, Psychology Today, and design source (Brooke Laster).
 
 ## Key Links
 
 * [Alma profile](<https://secure.helloalma.com/providers/katherine-didonato/>)
 * [Insurance cost estimate](<https://secure.helloalma.com/check-my-insurance-coverage/?provider=katherine-didonato&providerFirstName=Katherine&providerOffersSlidingScale=true>)
 * [Psychology Today profile](<https://www.psychologytoday.com/us/therapists/katherine-didonato-berkeley-heights-nj/1594073>)
+* [Design source: Brooke Laster, LCSW](<https://www.brookelaster.com/>)
 
 ## Updating the Booking URL
 
-All four content files use `https://secure.helloalma.com/providers/katherine-didonato/` as a temporary booking link. Each file has a `BOOKING_URL` comment on line 2 marking the current value. When the real booking link is ready, find and replace that URL across all four files in `docs/`.
+All four content files use `https://secure.helloalma.com/providers/katherine-didonato/` as a temporary booking link. Each file has a `BOOKING_URL` comment on line 2 marking the current value. When the real booking link is ready, find and replace that URL across all four files in `docs/plans/`.
 
 ## Provider Details
 

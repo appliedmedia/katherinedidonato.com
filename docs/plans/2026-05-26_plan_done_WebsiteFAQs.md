@@ -1,4 +1,4 @@
-<!-- 2026-05-26_info_WebsiteFAQs.md Copyright (c) 2026:a@cov.in. All Rights Reserved. Do Not Distribute. -->
+<!-- 2026-05-26_plan_done_WebsiteFAQs.md Copyright (c) 2026:a@cov.in. All Rights Reserved. Do Not Distribute. -->
 <!-- BOOKING_URL: https://secure.helloalma.com/providers/katherine-didonato/ — replace this URL everywhere in this file when the real booking link is ready -->
 
 # FAQs Page
@@ -45,6 +45,10 @@ Not sure if your plan is covered? [Get a cost estimate for your sessions](<https
 
 Yes, sliding scale fees are available based on financial need. Reach out to discuss.
 
+## What payment methods do you accept?
+
+Katherine accepts all major credit cards (Visa, Mastercard, American Express, Discover) as well as Venmo and Zelle.
+
 ## Do you offer in-person sessions?
 
 No. All sessions are held virtually via telehealth. This allows Katherine to work with clients throughout New Jersey and New York from wherever is most convenient for you.
@@ -60,6 +64,8 @@ Katherine works with individual adults, including young adults (18 to 24), adult
 ## What is your cancellation policy?
 
 Please reach out directly to discuss cancellation and rescheduling policies before booking.
+
+<!-- NOTE: The above is a placeholder. Replace with the actual policy once confirmed. -->
 
 ## How do I get in touch?
 

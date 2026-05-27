@@ -1,4 +1,4 @@
-<!-- 2026-05-26_info_WebsiteServices.md Copyright (c) 2026:a@cov.in. All Rights Reserved. Do Not Distribute. -->
+<!-- 2026-05-26_plan_done_WebsiteServices.md Copyright (c) 2026:a@cov.in. All Rights Reserved. Do Not Distribute. -->
 <!-- BOOKING_URL: https://secure.helloalma.com/providers/katherine-didonato/ — replace this URL everywhere in this file when the real booking link is ready -->
 
 # Services Page
@@ -11,7 +11,7 @@ Katherine provides individual telehealth therapy for adults in New Jersey and Ne
 
 ### Anxiety and Panic Disorders
 
-Anxiety can feel all-consuming: the racing thoughts, the physical symptoms, the avoidance that slowly narrows your world. Katherine uses cognitive behavioral therapy and exposure-based techniques to help you understand what is driving your anxiety, face it in a manageable way, and reclaim the life you want.
+Anxiety can feel all-consuming: the racing thoughts, the physical symptoms, the avoidance that slowly narrows your world. Katherine uses cognitive behavioral therapy and exposure-based techniques to help you understand what is driving your anxiety, face it in a manageable way, and reclaim the life you want. This includes panic disorder, health anxiety (illness anxiety), and specific phobias such as fear of driving.
 
 ### Depression
 
@@ -28,6 +28,22 @@ Navigating fertility challenges is emotionally exhausting in ways that others ca
 ### Pregnancy, Prenatal, and Postpartum
 
 The perinatal period brings profound changes, and sometimes profound struggles: anxiety, depression, birth trauma, or the complicated feelings that come with loss. Katherine supports clients through all stages of this journey with compassion and clinical expertise.
+
+### ADHD
+
+Adults with ADHD often struggle with attention, organization, and follow-through in ways that affect work, relationships, and daily life. Katherine uses CBT-based strategies to help clients build practical structure, reduce overwhelm, and develop lasting tools for managing ADHD.
+
+### Grief
+
+Grief does not follow a timeline or a script. Whether you are navigating the loss of a person, a relationship, or a significant life chapter, Katherine provides a space to process what you are going through without judgment, and to find a way forward that honors what you have lost.
+
+### Sleep and Insomnia
+
+Chronic sleep difficulties affect every area of life. Katherine uses Cognitive Behavioral Therapy for Insomnia (CBT-I), the evidence-based first-line treatment, to help clients identify and change the thoughts and behaviors that perpetuate sleep problems without relying on medication.
+
+### Anger Management
+
+Anger becomes a problem when it is disproportionate, difficult to control, or damaging to relationships and wellbeing. Katherine uses CBT techniques to help clients understand the triggers and patterns beneath their anger, and to respond in ways that reflect their values rather than their reactivity.
 
 ## Therapeutic Approaches
 
