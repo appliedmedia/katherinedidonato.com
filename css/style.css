@@ -1,0 +1,618 @@
+/* style.css Copyright (c) 2026:a@cov.in. All Rights Reserved. Do Not Distribute. */
+
+/* BOOKING_URL: https://secure.helloalma.com/providers/katherine-didonato/ — replace everywhere when real link is ready */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap');
+
+/* ─── Reset ─────────────────────────────────────────────── */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 16px; scroll-behavior: smooth; }
+
+img { display: block; max-width: 100%; height: auto; }
+
+a { color: inherit; text-decoration: none; }
+
+/* ─── Tokens ─────────────────────────────────────────────── */
+
+:root {
+  --bg:           #faf9f7;
+  --bg-alt:       #f3ede5;
+  --text:         #1c1a18;
+  --text-muted:   #6b6560;
+  --accent:       #5c4f3a;
+  --border:       #ddd7ce;
+  --nav-h:        72px;
+  --max:          1080px;
+  --pad-x:        clamp(24px, 5vw, 80px);
+  --font-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-body:    'Inter', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* ─── Base ───────────────────────────────────────────────── */
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── Nav ────────────────────────────────────────────────── */
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  height: var(--nav-h);
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--pad-x);
+}
+
+.nav__name {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: var(--text);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  gap: clamp(20px, 3vw, 40px);
+  list-style: none;
+}
+
+.nav__links a {
+  font-family: var(--font-body);
+  font-size: 0.825rem;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.nav__links a:hover,
+.nav__links a.active { color: var(--accent); }
+
+.nav__links .nav__portal a {
+  border: 1px solid var(--border);
+  padding: 8px 18px;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.nav__links .nav__portal a:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* ─── Page wrapper ───────────────────────────────────────── */
+
+.page { padding-top: var(--nav-h); }
+
+/* ─── Hero (home) ────────────────────────────────────────── */
+
+.hero {
+  display: grid;
+  grid-template-columns: 45% 1fr;
+  min-height: calc(100vh - var(--nav-h));
+}
+
+.hero__photo {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px var(--pad-x) 60px 64px;
+}
+
+.hero__eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+.hero__headline {
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 4vw, 3.5rem);
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.2;
+  color: var(--text);
+  margin-bottom: 28px;
+}
+
+.hero__sub {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--text-muted);
+  max-width: 440px;
+  margin-bottom: 44px;
+}
+
+.hero__ctas {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+/* ─── Buttons / Links ────────────────────────────────────── */
+
+.btn {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.825rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background: var(--text);
+  color: var(--bg);
+  padding: 14px 32px;
+}
+
+.btn--primary:hover {
+  background: var(--accent);
+}
+
+.btn--ghost {
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 13px 32px;
+}
+
+.btn--ghost:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.text-link {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity 0.2s;
+}
+
+.text-link:hover { opacity: 0.7; }
+
+/* ─── Section ────────────────────────────────────────────── */
+
+.section {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 96px var(--pad-x);
+}
+
+.section--alt {
+  background: var(--bg-alt);
+  max-width: 100%;
+}
+
+.section--alt .section__inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 96px var(--pad-x);
+}
+
+.section__label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+.section__heading {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--text);
+  margin-bottom: 28px;
+}
+
+.section__heading--italic { font-style: italic; }
+
+.section__body {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.85;
+  color: var(--text-muted);
+  max-width: 640px;
+}
+
+.section__body p + p { margin-top: 20px; }
+
+/* ─── Two-col layout ─────────────────────────────────────── */
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(48px, 6vw, 96px);
+  align-items: start;
+}
+
+.two-col--photo-right .col--photo { order: 2; }
+.two-col--photo-right .col--text  { order: 1; }
+
+.col--photo img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center top;
+}
+
+/* ─── About intro ────────────────────────────────────────── */
+
+.about-intro {
+  padding: 96px var(--pad-x) 48px;
+  max-width: var(--max);
+  margin: 0 auto;
+}
+
+.about-intro__name {
+  font-family: var(--font-display);
+  font-size: clamp(2.8rem, 5vw, 4.5rem);
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.1;
+  color: var(--text);
+  margin-bottom: 0;
+}
+
+/* ─── Credentials ────────────────────────────────────────── */
+
+.credentials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  margin-top: 48px;
+}
+
+.credential-group h3 {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+
+.credential-group ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.credential-group li {
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+/* ─── Services list ──────────────────────────────────────── */
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 64px;
+}
+
+.service-item {
+  border-top: 1px solid var(--border);
+  padding: 40px 0;
+}
+
+.service-item:last-child { border-bottom: 1px solid var(--border); }
+
+.service-item__title {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 16px;
+}
+
+.service-item__body {
+  font-size: 0.95rem;
+  font-weight: 300;
+  line-height: 1.85;
+  color: var(--text-muted);
+  max-width: 680px;
+}
+
+/* ─── Modalities ─────────────────────────────────────────── */
+
+.modalities {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.modality {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.modality__name {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.modality__desc {
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* ─── FAQs ───────────────────────────────────────────────── */
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 64px;
+}
+
+.faq-item {
+  border-top: 1px solid var(--border);
+  padding: 36px 0;
+}
+
+.faq-item:last-child { border-bottom: 1px solid var(--border); }
+
+.faq-item__q {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 14px;
+}
+
+.faq-item__a {
+  font-size: 0.95rem;
+  font-weight: 300;
+  line-height: 1.85;
+  color: var(--text-muted);
+  max-width: 680px;
+}
+
+.faq-item__a p + p { margin-top: 14px; }
+
+.faq-item__a ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 14px;
+}
+
+.faq-item__a ul li::before {
+  content: '— ';
+  color: var(--border);
+}
+
+/* ─── Insurance strip ────────────────────────────────────── */
+
+.insurance-strip {
+  background: var(--bg-alt);
+  padding: 64px var(--pad-x);
+  text-align: center;
+}
+
+.insurance-strip p {
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+/* ─── CTA band ───────────────────────────────────────────── */
+
+.cta-band {
+  text-align: center;
+  padding: 96px var(--pad-x);
+  border-top: 1px solid var(--border);
+}
+
+.cta-band__heading {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
+  font-weight: 400;
+  font-style: italic;
+  color: var(--text);
+  margin-bottom: 12px;
+}
+
+.cta-band__sub {
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: var(--text-muted);
+  margin-bottom: 36px;
+}
+
+.cta-band__options {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 36px;
+}
+
+.booking-option {
+  text-align: left;
+  max-width: 280px;
+}
+
+.booking-option__label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.booking-option__title {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.booking-option__desc {
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+/* ─── Footer ─────────────────────────────────────────────── */
+
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 32px var(--pad-x);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer__links {
+  display: flex;
+  gap: 28px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.footer__links a {
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer__links a:hover { color: var(--text); }
+
+.footer__copy {
+  font-size: 0.775rem;
+  color: var(--text-muted);
+}
+
+/* ─── Page hero (interior pages) ────────────────────────── */
+
+.page-hero {
+  padding: 80px var(--pad-x) 48px;
+  max-width: var(--max);
+  margin: 0 auto;
+  border-bottom: 1px solid var(--border);
+}
+
+.page-hero__title {
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 4vw, 3.8rem);
+  font-weight: 400;
+  font-style: italic;
+  color: var(--text);
+}
+
+/* ─── Divider ────────────────────────────────────────────── */
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 0;
+}
+
+/* ─── Responsive ─────────────────────────────────────────── */
+
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .hero__photo {
+    aspect-ratio: 4 / 3;
+    height: 50vw;
+    min-height: 280px;
+  }
+
+  .hero__text {
+    padding: 48px var(--pad-x);
+  }
+
+  .two-col {
+    grid-template-columns: 1fr;
+  }
+
+  .two-col--photo-right .col--photo,
+  .two-col--photo-right .col--text { order: unset; }
+
+  .col--photo img { aspect-ratio: 4 / 3; }
+}
+
+@media (max-width: 640px) {
+  .nav__links { gap: 16px; }
+  .nav__links .nav__portal { display: none; }
+
+  .cta-band__options { flex-direction: column; align-items: center; }
+  .booking-option { text-align: center; }
+
+  .footer { flex-direction: column; text-align: center; }
+  .footer__links { justify-content: center; }
+}
